@@ -1,0 +1,69 @@
+/* Styles.css */
+
+body {
+    background-color: #131723;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FBFBFB;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    background-color: #1F2633;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(15, 168, 148, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+#seconds {
+    font-size: 36px;
+    color: #FBFBFB;
+}
+
+#tens {
+    font-size: 36px;
+    color: #FBFBFB;
+}
+
+button {
+    background-color: #5FEAD1;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+    width: 130px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#separator {
+    font-size: 36px;
+    margin: 0 10px;
+    /* Add some spacing between seconds and tens */
+    color: #FBFBFB;
+    /* Adjust the color as needed */
+}
